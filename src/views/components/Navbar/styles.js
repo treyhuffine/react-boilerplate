@@ -6,6 +6,7 @@ export const Bar = styled.div`
   height: ${height.nav};
   background-color: ${colors.brand};
   width: 100%;
+  display: inline-flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -16,13 +17,13 @@ export const HeightControl = styled.div`
   width: 100%;
 `;
 
+export const Logo = styled.div`
+  color: ${colors.white};
+  line-height: ${height.nav};
+`;
+
 export const Container = styled.div`
   max-width: ${width.container};
   margin-left: auto;
   margin-right: auto;
-`;
-
-export const Logo = styled.div`
-  color: ${colors.white};
-  line-height: ${height.nav};
 `;

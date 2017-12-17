@@ -155,7 +155,7 @@
       "expose": "routes"
     },
     {
-      "source": "./styles",
+      "source": "./views/styles",
       "expose": "styles"
     },
     {
