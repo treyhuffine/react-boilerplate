@@ -1,2 +1,3 @@
-import Footer from './Footer';
+const Footer = () => null;
+
 export default Footer;

@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import { width, height } from 'styles/measurements';
+import { height } from 'styles/measurements';
 import { colors } from 'styles/palette';
+import { size } from 'styles/font';
 
 export const Bar = styled.div`
   height: ${height.nav};
   background-color: ${colors.brand};
   width: 100%;
-  display: inline-flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,11 +19,7 @@ export const HeightControl = styled.div`
 
 export const Logo = styled.div`
   color: ${colors.white};
+  font-size: ${size.large};
   line-height: ${height.nav};
-`;
-
-export const Container = styled.div`
-  max-width: ${width.container};
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-flex;
 `;
