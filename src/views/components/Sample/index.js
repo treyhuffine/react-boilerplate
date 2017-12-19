@@ -18,7 +18,7 @@ class Sample extends Component {
     return (
       <Wrapper>
         <Header>
-          <Logo src={logo} className="App-logo" alt="logo" />
+          <Logo src={logo} alt="logo"/>
           <h2>Hello, {name}! Welcome to React.</h2>
         </Header>
         <Intro>

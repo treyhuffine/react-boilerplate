@@ -6,7 +6,7 @@ class SamplePage extends Component {
   render() {
     return (
       <Page>
-        <Sample name='World'/>
+        <Sample/>
       </Page>
     );
   }

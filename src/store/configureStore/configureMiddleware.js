@@ -1,9 +1,8 @@
 import { applyMiddleware, compose } from 'redux';
-import thunk from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 
 const isProd = process.env.NODE_ENV === 'production';
-const middlewareList = [thunk];
+const middlewareList = [];
 
 if (!isProd) {
   middlewareList.push(createLogger());
