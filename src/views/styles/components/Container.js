@@ -7,4 +7,5 @@ export default styled.div`
   padding-right: ${spacing.base};
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
 `;

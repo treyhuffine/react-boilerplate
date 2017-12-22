@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import { height } from 'styles/measurements';
 import { colors } from 'styles/palette';
 import { size } from 'styles/font';
@@ -18,8 +19,14 @@ export const HeightControl = styled.div`
 `;
 
 export const Logo = styled.div`
+  display: flex;
+  align-items: center;
+  height: 100%;
+`;
+
+export const StyledLink = styled(Link)`
   color: ${colors.white};
   font-size: ${size.large};
-  line-height: ${height.nav};
-  display: inline-flex;
+  display: flex;
+  align-items: center;
 `;
