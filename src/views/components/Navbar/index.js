@@ -1,18 +1,17 @@
 import React from 'react';
 
-import { Bar, HeightControl, Logo, StyledLink } from './styles';
-import Container from 'styles/components/Container';
+import { Bar, HeightControl, Logo, StyledLink, FlexContainer } from './styles';
 
 const Navbar = () => (
   <HeightControl>
     <Bar>
-      <Container>
+      <FlexContainer>
         <Logo>
           <StyledLink to="/">
             Logo
           </StyledLink>
         </Logo>
-      </Container>
+      </FlexContainer>
     </Bar>
   </HeightControl>
 );
