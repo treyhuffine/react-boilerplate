@@ -160,6 +160,10 @@
     {
       "source": "./images",
       "expose": "images"
+    },
+    {
+      "source": "./utils",
+      "expose": "utils"
     }
   ]
 }
