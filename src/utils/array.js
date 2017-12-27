@@ -1,8 +1,8 @@
 const PER_PAGE = 20;
 
-export const paginate = (list, page) => {
-  const start = (page - 1) * PER_PAGE;
-  const end = page * PER_PAGE;
+export const paginate = (list, page, perPage = PER_PAGE) => {
+  const start = (page - 1) * perPage;
+  const end = page * perPage;
 
   return list.slice(start, end);
 };
